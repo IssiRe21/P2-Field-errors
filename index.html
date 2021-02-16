@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="login">
+
+        <div class="img-container">
+            <!-- <img src="./img/linnea-sandbakk-HQqIOc8oYro-unsplash.jpg" alt="Fox"> -->
+        </div>
+        <div class="form-container">
+            <h1 class="form-title">Please login to continue.</h1>
+            <form action="#" class="login-form" id="login_form">
+                <div class="form-group">
+                    <label for="username"class="form-label " id="label-user"><span class="required-indicator">*</span>Username:</label>
+                    <input type="text" id="username" class="form-input ">
+                </div>
+                <div class="form-group">
+                    <label for="password" class="form-label " id="label-password"><span class="required-indicator">*</span>Password:</label>
+                    <input type="password" id="password" class="form-input ">
+                </div>
+                <div>
+                    <p><span class="required-indicator">*</span> Campos requeridos</p>
+                </div>
+                <div class="message danger" id="message_danger">
+                    <p id="message_danger_text">Lorem Ipsum Dolor Sit Amet.</p>
+                </div>
+                <a href="#" class="forgot-link">Forgot your password?</a>
+                <button type="submit" class="form-submit-button" id="button_login">Login</button>
+            </form>
+        </div>
+        <span>Photo by <a href="https://unsplash.com/@linneasandbakk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Linnea Sandbakk</a> on <a href="https://unsplash.com/s/photos/fox?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
